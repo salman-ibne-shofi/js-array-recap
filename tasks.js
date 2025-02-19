@@ -48,9 +48,17 @@ const price = 500;
 
 const value = [];
 
-const weight = "[]"
+const weight = "[]";
 
 console.log(Array.isArray(mobiles));
 console.log(Array.isArray(value));
 console.log(Array.isArray(weight));
 console.log(Array.isArray(price));
+
+// Combining Arrays
+const laptops = ["hp", "lenovo", "acer", "mac"];
+
+const vegitables = ["alu", "potol", "mulo", "gajor", "pepe"];
+
+const combo = [...laptops, ...vegitables];
+console.log(combo);
