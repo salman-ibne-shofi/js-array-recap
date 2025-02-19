@@ -31,3 +31,26 @@ if (books.includes("javascript")) {
 } else {
 	console.log("you must purchase a javascript course");
 }
+
+// Checking if it's an Array
+const mobiles = [
+	"Iphone",
+	"Samsung",
+	"Vivo",
+	"Nokia",
+	"Realme",
+	"Redme",
+	"Xiome",
+	"Vodafone",
+];
+
+const price = 500;
+
+const value = [];
+
+const weight = "[]"
+
+console.log(Array.isArray(mobiles));
+console.log(Array.isArray(value));
+console.log(Array.isArray(weight));
+console.log(Array.isArray(price));
